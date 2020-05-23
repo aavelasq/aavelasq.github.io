@@ -13,7 +13,7 @@
 .sidebar h1 {
     color: #ffffff;
     font-size: 25px;
-    padding: 5px 15px;
+    padding: 8px 15px;
     font-family: Verdana, Geneva, sans-serif;
     border-bottom: 1px solid #ffffff;
 }
@@ -62,7 +62,7 @@ nav {
 nav ul {
     font-family: Verdana, Geneva, sans-serif;
     margin: 0px;
-    padding: 5px;
+    padding: 0px;
     list-style: none;
     font-weight: bold;
 }
@@ -71,14 +71,16 @@ nav ul li {
     display: inline;
     margin-right: 25px;
     border-right: 1px solid white;
-    padding: 5px 5px;
+    align-items: center;
+    padding: 5px 8px;
 }
 
-a {
+nav ul li a {
     text-decoration: none;
-    color: #999;
+    color: #f0f0f0;
 }
 
 a:hover {
     opacity: 0.6;
+    text-decoration: underline;
 }
