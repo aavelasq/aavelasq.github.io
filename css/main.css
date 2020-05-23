@@ -55,24 +55,24 @@ nav {
     overflow: hidden;
     margin-left: 80px auto;
     margin-right: 80px auto;
-    margin-bottom: 500px auto;
-    background-color: #333333;
+    margin-bottom: 800px;
+    background-color: #292929;
 }
 
 nav ul {
     font-family: Verdana, Geneva, sans-serif;
     margin: 0px;
-    padding: 0px;
+    padding: 5px 8px;
+    align-items: center;
     list-style: none;
     font-weight: bold;
 }
 
 nav ul li {
     display: inline;
-    margin-right: 25px;
+    /* margin-right: 20px; */
     border-right: 1px solid white;
-    align-items: center;
-    padding: 5px 8px;
+    /* padding: 5px 8px; */
 }
 
 nav ul li a {
@@ -82,5 +82,4 @@ nav ul li a {
 
 a:hover {
     opacity: 0.6;
-    text-decoration: underline;
 }
