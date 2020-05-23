@@ -66,13 +66,13 @@ nav ul {
     font-family: Verdana, Geneva, sans-serif;
     margin: 0px;
     /* padding: 5px 8px; */
-    align-items: center;
     list-style: none;
     font-weight: bold;
 }
 
 nav ul li {
     display: inline;
+    align-items: center;
     border-right: 1px solid white;
     padding: 5px 8px;
 }
