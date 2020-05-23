@@ -10,6 +10,13 @@
     border-color: #7E6E63;
 }
 
+.sidebar img {
+    display: block;
+    margin: auto;
+    max-width: 90%;
+    height: auto;
+}
+
 .sidebar h1 {
     color: #F2F2F2;
     font-size: 25px;
