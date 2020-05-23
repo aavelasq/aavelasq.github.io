@@ -69,11 +69,11 @@ nav ul li {
     border-right: 1px solid white;
 }
 
-nav ul li a {
+/* nav ul li a {
     display: block;
     text-align: center;
     padding: 10px 15px;
-}
+} */
 
 a {
     text-decoration: none;
