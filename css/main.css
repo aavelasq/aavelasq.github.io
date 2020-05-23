@@ -48,6 +48,11 @@ body {
     color: #585858;
 }
 
+nav {
+    overflow: hidden;
+    background-color: #333333;
+}
+
 nav ul {
     font-family: Verdana, Geneva, sans-serif;
     padding: 0px;
@@ -57,7 +62,13 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin-right: 20px;
+    margin-right: 25px;
+}
+
+nav ul li a {
+    display: block;
+    text-align: center;
+    padding: 10px 15px;
 }
 
 a {
