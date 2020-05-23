@@ -4,7 +4,7 @@
     float: left;
     background-color: #C8B2A3;
     font-size: 14px;
-    height: 450px;
+    height: 460px;
     font-family: Verdana, Geneva, sans-serif;
     border-left-style: solid;
     border-width: 8px;
@@ -58,7 +58,7 @@ nav {
     overflow: hidden;
     margin-left: 80px auto;
     margin-right: 80px auto;
-    margin-bottom: 600px;
+    margin-bottom: 300px;
     background-color: #292929;
 }
 
