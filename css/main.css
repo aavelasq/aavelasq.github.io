@@ -10,13 +10,6 @@
     border-color: #7E6E63;
 }
 
-.sidebar img {
-    display: block;
-    margin: auto;
-    max-width: 90%;
-    height: auto;
-}
-
 .sidebar h1 {
     color: #fffcfc;
     font-size: 25px;
@@ -45,7 +38,7 @@ body {
     border-style: solid;
     border-width: 5px;
     border-color: rgba(231, 195, 171, 0.726);
-    margin-left: 500px;
+    margin-left: 350px;
     padding: 40px;
 }
 
@@ -59,6 +52,7 @@ nav {
     overflow: hidden;
     margin-left: 80px auto;
     margin-right: 80px auto;
+    margin-bottom: 10px auto;
     background-color: #333333;
 }
 
@@ -76,11 +70,11 @@ nav ul li {
     border-right: 1px solid white;
 }
 
-/* nav ul li a {
+nav ul li a {
     display: block;
     text-align: center;
-    padding: 10px 15px;
-} */
+    /* padding: 10px 15px; */
+}
 
 a {
     text-decoration: none;
