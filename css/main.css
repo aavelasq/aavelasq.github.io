@@ -4,32 +4,34 @@
     float: left;
     background-color: #C8B2A3;
     font-size: 14px;
+    font-family: Verdana, Geneva, sans-serif;
 }
 
 .sidebar h1 {
     color: #F2F2F2;
     font-size: 25px;
     padding-left: 10px;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family: Verdana, Geneva, sans-serif;
 }
 
 .sidebar a {
     color: #6A5649;
-    padding-left: 10px;
-    padding-bottom: 10px;
 }
 
 .sidebar p {
     color: #FFFFFF;
-    padding-left: 10px;
+    padding-left: 15px;
+    padding-bottom: 15px;
 }
 
 body {
     margin: 60px auto;
     width: 60%;
+    font-family: Verdana, Geneva, sans-serif;
 }
 
 .container {
+    background-color: #FBF2EC;
     padding: 50px;
 }
 
@@ -40,7 +42,7 @@ body {
 }
 
 nav ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family: Verdana, Geneva, sans-serif;
     padding: 0px;
     list-style: none;
     font-weight: bold;
@@ -57,5 +59,5 @@ a {
 }
 
 a:hover {
-    opacity: 0.7;
+    opacity: 0.6;
 }
