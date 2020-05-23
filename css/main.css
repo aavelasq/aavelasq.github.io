@@ -4,7 +4,7 @@
     float: left;
     background-color: #C8B2A3;
     font-size: 14px;
-    height: 460px;
+    height: 470px;
     font-family: Verdana, Geneva, sans-serif;
     border-left-style: solid;
     border-width: 8px;
@@ -58,14 +58,14 @@ nav {
     overflow: hidden;
     margin-left: 80px auto;
     margin-right: 80px auto;
-    margin-bottom: 300px;
+    margin-bottom: 50px;
     background-color: #292929;
 }
 
 nav ul {
     font-family: Verdana, Geneva, sans-serif;
     margin: 0px;
-    /* padding: 5px 8px; */
+/*     padding: 5px 8px; */
     list-style: none;
     font-weight: bold;
 }
