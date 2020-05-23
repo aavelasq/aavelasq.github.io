@@ -14,8 +14,8 @@
 .sidebar h1 {
     color: #ffffff;
     font-size: 25px;
-    font-weight: 600;
-    padding: 8px 15px;
+    font-weight: 500;
+    padding: 9px 15px;
     font-family: Verdana, Geneva, sans-serif;
     border-bottom: 1px solid #ffffff;
 }
@@ -25,6 +25,7 @@
 }
 
 .sidebar p {
+    font-size: 10px;
     color: #FFFFFF;
     padding-left: 15px;
     padding-bottom: 15px;
@@ -42,7 +43,7 @@ body {
     border-width: 3px;
     border-color: #dedede;
     height: 300px;
-    margin-top: 100px;
+    margin-top: 80px;
     margin-left: 250px;
     margin-bottom: 80px;
     padding: 25px;
@@ -58,16 +59,16 @@ nav {
     overflow: hidden;
     margin-left: 80px auto;
     margin-right: 80px auto;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
     background-color: #292929;
 }
 
 nav ul {
     font-family: Verdana, Geneva, sans-serif;
     margin: 0px;
-/*     padding: 5px 8px; */
+    padding: 8px;
     list-style: none;
-    font-weight: bold;
+    font-weight: 500;
 }
 
 nav ul li {
