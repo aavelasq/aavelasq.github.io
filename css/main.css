@@ -1,27 +1,43 @@
 .sidebar {
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
     max-width: 250px;
-    margin: auto;
     float: left;
     text-align: left;
     background-color: #C8B2A3;
     font-size: 18px;
-    color: white;
 }
 
 .sidebar h1 {
     color: #F2F2F2;
     font-size: 30px;
+    padding-left: 10px;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 
 .sidebar a {
-    color: #6A5649
+    color: #6A5649;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.sidebar p {
+    color: #FFFFFF;
+    padding-left: 10px;
 }
 
 body {
     margin: 60px auto;
     width: 70%;
+}
+
+.container {
+    padding: 50px;
+}
+
+.container p {
+    font-size: 20px;
+    line-height: 1.4em;
+    color: #585858;
 }
 
 nav ul {
@@ -43,10 +59,4 @@ a {
 
 a:hover {
     opacity: 0.7;
-}
-
-p {
-    font-size: 20px;
-    line-height: 1.4em;
-    color: #333;
 }
