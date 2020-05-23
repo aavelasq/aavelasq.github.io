@@ -5,6 +5,9 @@
     background-color: #C8B2A3;
     font-size: 14px;
     font-family: Verdana, Geneva, sans-serif;
+    border-left-style: solid;
+    border-width: 10px;
+    border-color: #7E6E63;
 }
 
 .sidebar h1 {
