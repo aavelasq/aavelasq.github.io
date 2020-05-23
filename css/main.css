@@ -35,11 +35,15 @@ body {
 
 .container {
     background-color: #FBF2EC;
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgba(231, 195, 171, 0.726);
+    margin-left: 100px;
     padding: 40px;
 }
 
 .container p {
-    font-size: 20px;
+    font-size: 16px;
     line-height: 1.4em;
     color: #585858;
 }
