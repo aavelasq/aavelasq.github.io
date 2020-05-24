@@ -18,7 +18,7 @@
 
 .sidebar h1 {
     color: #ffffff;
-    font-size: 27px;
+    font-size: 28px;
     font-weight: 500;
     padding-left: 15px;
     font-family: 'Roboto', sans-serif;
@@ -43,14 +43,14 @@ body {
     margin: 80px auto;
     width: 60%;
     font-family: 'Roboto', sans-serif;
-    font-weight: 400;
+    font-weight: 300;
 }
 
 /* container */
 .container {
     background-color: #fafafa;
     border-style: solid;
-    border-width: 2px;
+    border-width: 1px;
     border-color: #dedede;
     height: 270px;
     margin-top: 80px;
@@ -60,7 +60,7 @@ body {
 }
 
 .container p {
-    font-size: 14px;
+    font-size: 15px;
     line-height: 1.4em;
     color: #585858;
 }
@@ -87,7 +87,7 @@ nav ul li {
     align-items: center;
     border-right: 1px solid white;
     padding-left: 8px;
-    padding-right: 10px;
+    padding-right: 11px;
 }
 
 nav ul li a {
