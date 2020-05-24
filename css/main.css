@@ -6,7 +6,7 @@
     background-color: #C8B2A3;
     font-size: 14px;
     height: 470px;
-    font-family: Verdana, Geneva, sans-serif;
+    font-family: 'Roboto', sans-serif;
     border-left-style: solid;
     border-width: 8px;
     border-color: #7E6E63;
@@ -19,9 +19,9 @@
 .sidebar h1 {
     color: #ffffff;
     font-size: 27px;
-    font-weight: 600;
+    font-weight: 500;
     padding-left: 15px;
-    font-family: Verdana, Geneva, sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .sidebar a {
@@ -33,6 +33,7 @@
     font-size: 13px;
     color: #FFFFFF;
     font-stretch: semi-expanded;
+    font-weight: 400;
     line-height: 1.5;
     padding-left: 15px;
     padding-bottom: 15px;
@@ -41,7 +42,8 @@
 body {
     margin: 80px auto;
     width: 60%;
-    font-family: Verdana, Geneva, sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
 }
 
 /* container */
@@ -73,11 +75,11 @@ nav {
 }
 
 nav ul {
-    font-family: Verdana, Geneva, sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0px;
     padding: 8px;
     list-style: none;
-    font-weight: 500;
+    font-weight: 300;
 }
 
 nav ul li {
