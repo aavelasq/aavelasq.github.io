@@ -2,13 +2,13 @@
 .sidebar {
     max-width: 200px;
     float: left;
-    background-color: #e8e8e8;
+    background-color: #fafafa;
     font-size: 14px;
     height: 470px;
     font-family: 'Roboto', sans-serif;
     border-left-style: solid;
-    border-width: 6px;
-    border-color: #cccccc;
+    border-width: 5px;
+    border-color: #ededed;
 }
 
 .sidebar img {
@@ -67,7 +67,7 @@ nav {
     margin-left: 80px auto;
     margin-right: 80px auto;
     margin-bottom: 20px;
-    background-color: #e8e8e8;
+    background-color: #dbdbdb;
 }
 
 nav ul {
