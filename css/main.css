@@ -1,15 +1,14 @@
 /* sidebar */
 .sidebar {
-    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
-    max-width: 230px;
+    max-width: 210px;
     float: left;
     background-color: #e0e0e0;
     font-size: 14px;
     height: 470px;
     font-family: 'Roboto', sans-serif;
     border-left-style: solid;
-    border-width: 8px;
-    border-color: #d1d1d1;
+    border-width: 6px;
+    border-color: #dbdbdb;
 }
 
 .sidebar img {
@@ -17,7 +16,7 @@
 }
 
 .sidebar h1 {
-    color: #ffffff;
+    color: #999999;
     font-size: 28px;
     font-weight: 500;
     padding-left: 15px;
@@ -25,13 +24,13 @@
 }
 
 .sidebar a {
-    color: #6A5649;
+    color: #b0b0b0;
     text-decoration: none;
 }
 
 .sidebar p {
     font-size: 13px;
-    color: #FFFFFF;
+    color: #999999;
     font-stretch: semi-expanded;
     font-weight: 400;
     line-height: 1.5;
@@ -62,7 +61,7 @@ body {
 .container p {
     font-size: 15px;
     line-height: 1.4em;
-    color: #585858;
+    color: #696969;
 }
 
 /* navigation bar */
@@ -93,7 +92,7 @@ nav ul li {
 nav ul li a {
     font-size: 14px;
     text-decoration: none;
-    color: #f0f0f0;
+    color: #ffffff;
 }
 
 a:hover {
