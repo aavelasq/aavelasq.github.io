@@ -3,13 +3,13 @@
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
     max-width: 230px;
     float: left;
-    background-color: #C8B2A3;
+    background-color: #e0e0e0;
     font-size: 14px;
     height: 470px;
     font-family: 'Roboto', sans-serif;
     border-left-style: solid;
     border-width: 8px;
-    border-color: #7E6E63;
+    border-color: #d1d1d1;
 }
 
 .sidebar img {
@@ -71,7 +71,7 @@ nav {
     margin-left: 80px auto;
     margin-right: 80px auto;
     margin-bottom: 20px;
-    background-color: #292929;
+    background-color: #e0e0e0;
 }
 
 nav ul {
