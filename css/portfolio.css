@@ -6,54 +6,42 @@ body {
 }
 
 /* container */
-div.container {
-    display: grid;
-    grid-template-columns: 250px 500px;
-    grid-template-rows: auto auto;
-    grid-template-areas: 
-    "image title"
-    "image main";
+.main {
     background-color: #f5f5f5;
-    height: 300px;
+    height: 400px;
+    overflow: scroll;
     margin-top: 40px;
     margin-bottom: 80px;
     padding-top: 20px;
+    padding-bottom: 20px;
     padding-left: 50px;
     padding-right: 50px;
 }
 
-div img#icon {
-    width: 180px;
-    justify-self: center;
-    grid-area: image;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    opacity: 0.8;
-    transition: opacity 0.5s;
-}
-
-div img#icon:hover {
-    opacity: 1.0;
-}
-
-div h1#name {
-    justify-self: left;
-    font-size: 37px;
-    padding-top: 40px;
-    padding-left: 20px;
+.main h2 {
     color: #654e66;
-    font-weight: 500;
-    grid-area: title;
 }
 
-div p#desc {
-    justify-self: left;
-    grid-area: main;
-    padding-left: 20px;
-    padding-bottom: 120px;
+.main p {
     font-size: 15px;
     line-height: 1.4em;
     color: #696969;
+}
+
+ul li.project { 
+    font-weight: bold;
+    font-size: 18px;
+}
+
+ul li a {
+    color: #654e66;
+    text-decoration: none;
+    transition: opacity 0.5s;
+}
+
+ul li a:hover {
+    text-decoration: none;
+    opacity: 0.6;
 }
 
 /* navigation bar */
