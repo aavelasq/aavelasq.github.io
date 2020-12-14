@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>DSC 106 Final Project</title>
+
+        <link rel="stylesheet" href="./styles/style.css" type="text/css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500&display=swap" rel="stylesheet">
+        
+        <script src="https://code.highcharts.com/highcharts.js"></script>
+        <script src="https://code.highcharts.com/highcharts-more.js"></script>
+        <script src="https://code.highcharts.com/modules/accessibility.js"></script>
+        <script src="https://code.highcharts.com/modules/timeline.js"></script>
+        <script src="./scripts/main.js"></script>
+    </head>
+    <body>
+        <main>
+            <section id="header"></section>
+            <div class="main-content-box">
+                <section id="title">
+                    <h1>The Takeover of the Hallyu Wave</h1>
+                    <h3>K-Pop's Rise to Dominance in the US over the Past Decade</h3>
+                    <h4>By: Sijie Liu & Abigail Velasquez</h4>
+                </section>
+                <hr>
+                <section class="content" id="intro">
+                    <p> Over the past decade, K-Pop, otherwise known as Korean Pop music, has garnered immense 
+                        attention in the West where groups like BTS or Blackpink 
+                        have started to become recognizable among the general public. 
+                        From its eccentric fashion and addictive sound to its sharp choreography, 
+                        there’s no wonder why K-Pop has attracted such massive attention.
+                    </p>
+                    <img src="https://nowcdn.smtown.com/upload/news/images/2019/05/14/o8dO7NEKSegUvB90_5723f909705940f6a80d4c67b0043903_1557812103154.jpg">
+                    <h6>Pictured above: NCT 127, from 23 member K-Pop boy group NCT, in Los Angeles for their tour NEO CITY: The Origin in 2019.</h6>
+                    <div id="timelineChart"></div>
+                    <p> Considering K-Pop's seemingly massive growth, how has K-Pop's popularity in the US grown over the years?
+                        What makes K-Pop appealing to US audiences? To answer these questions, we analyzed
+                        various datasets from Spotify, Billboard, and concerts from the last decade to see 
+                        how much K-Pop's popularity has grown within the US.  
+                    </p>
+                    <hr>
+                </section>
+                <section class="content" id="popvals">
+                    <h3>K-Pop's Popularity in the US</h3>
+                    <p>
+                        First, let's take a look at how K-Pop albums performed on American record
+                        charts such as Billboard as well as the growth of K-Pop concerts over the past decade. 
+                    </p>
+                    <div id="boxPlot"></div>
+                    <p>
+                        In the early years of the decade, K-Pop albums tended to chart in the lower
+                        end of Billboard's Top Current Albums chart. Once 2015 hit, we can see a 
+                        shift in their overall performance on the chart as many albums managed to
+                        breakthrough past the #100 position. This means that there is an increase
+                        in interest as more people are streaming/buying albums, contributing towards
+                        their higher positions on the charts as of lately. 
+                    </p>
+                    <div id="concertTours"></div>
+                    <p>
+                        As you can see, there is an overall upward trend in the number of tours held by 
+                        K-Pop artists over the past decade. Prior to 2015 and 2016, the number of tours barely hit 
+                        over 10 but from 2017 onwards, we can see that they now hold around 15 or more, 
+                        suggesting an increase in demand of K-Pop artists to perform in the US.  
+                    </p>
+                    <p>
+                        The middle of the decade marks this shift in K-Pop's overall performance in
+                        the US, from barely being able to hit #100 peak position to now hitting #1's 
+                        and having over a dozen artists holding tours around the US. This means that 
+                        more people are listening and showing interest in the genre now more than ever, 
+                        as we've reached a point where listening to a K-Pop album or going to a concert
+                        is not considered as abnormal as it was before. 
+                    </p>
+                    <hr>
+                </section>
+                <section class="content" id="diversity">
+                    <h3>The Diversity of K-Pop</h3>
+                    <p>
+                        What makes K-Pop so appealing anyway? Let's look at the audio features
+                        of various genres to get an idea of what might attract people to the genre.
+                    </p>
+                    <div id="radarChart"></div>
+                    <p>
+                        According to Spotify, the audio features can be defined
+                        by the following:
+                    </p>
+                    <ul>
+                        <li><b>Danceability:</b> how suitable a track is for dancing; measured based on tempo, rhythm, beat</li>
+                        <li><b>Energy:</b> represents a perceptual measure of intensity and activity; typically feel fast, loud, and noisy</li>
+                        <li><b>Liveness:</b> presence of audience in recording; whether a track performed live or not</li>
+                        <li><b>Valence:</b> describes musical positiveness conveyed by track</li>
+                        <li><b>Acousticness:</b> whether track is acoustic, played solely by instruments</li>
+                    </ul>
+                    <p>
+
+                    </p>
+                    <hr>
+                </section>
+                <section class="content" id="conclusion">
+                    <div id="albumSales"></div>
+                    <p>
+                        K-Pop's increasing influence over the charts as shown through the exponential rise of 
+                        albums appearing on the charts demonstrates K-Pop's immense rise in popularity in the US
+                        over the past 10 years. Back in 2010, K-Pop had barely any 
+                        presence in the US, but now are able to prove that they can 
+                        even compete alongside artists in the American music industry.
+                    </p>
+                    <hr>
+                </section>
+                <section class="content" id="end">
+                    <h4>Data Methodology</h4>
+                    <p>
+                        The datasets were curated from audio features data found utilizing the Spotify API and 
+                        Billboard's Top Current Albums chart data found on Wikipedia. 
+                        <a href="https://developer.spotify.com/documentation/web-api/reference/tracks/get-audio-features/">Audio feature</a> 
+                        data was gathered from all tracks listed on Spotify's
+                        category playlists, in which each category represents a genre. 
+                        Billboard's <a href="https://en.wikipedia.org/wiki/List_of_K-pop_albums_on_the_Billboard_charts#Top_Current_Album_Sales">Top Current Albums</a> 
+                        chart utilizes the same criteria as the <a href="https://en.wikipedia.org/wiki/Billboard_200">Billboard 200</a>, which only counts albums
+                        that can be licensed for sale in the United States. 
+                    </p>
+                    <h6>Header: K-Pop boy group SEVENTEEN performing at <a href="https://api.time.com/wp-content/uploads/2019/07/kcon-ny-seventeen.jpg">KCON NY 2019</a></h6>
+                    <h6>Introduction: <a href="https://nowcdn.smtown.com/upload/news/images/2019/05/14/o8dO7NEKSegUvB90_5723f909705940f6a80d4c67b0043903_1557812103154.jpg">SMTOWN</a></h6>
+                </section>
+            </div>
+    </body>
+</html>
+
