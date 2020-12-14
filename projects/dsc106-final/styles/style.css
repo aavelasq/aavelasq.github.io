@@ -1,7 +1,5 @@
 body {
-    background-image: white;
-    background-repeat: no-repeat;
-    background-size: auto;
+    background-color: rgb(250, 250, 250);
     font-family: 'Noto Sans JP', sans-serif;
     color: rgb(46, 46, 46);
 }
@@ -23,6 +21,7 @@ main section#header {
     background-position: 0px 500px;
     background-size: cover;
     background-color: black;
+    opacity: 0.9;
     margin-bottom: 5px;
     padding: 140px;
 }
@@ -34,12 +33,12 @@ main section#title {
 
 main div.main-content-box{
     background-color: white;
-    margin-left: 220px;
-    margin-right: 220px;
+    margin-left: 235px;
+    margin-right: 235px;
     padding-top: 70px;
     padding-bottom: 40px;
-    padding-left: 90px;
-    padding-right: 90px;
+    padding-left: 100px;
+    padding-right: 100px;
     border-right-style: solid;
     border-left-style: solid;
     border-color:#b69941a9;
@@ -47,4 +46,8 @@ main div.main-content-box{
 
 main section.content {
     font-size: 16px;
+}
+
+main section#end p#methodology {
+    font-size: 14px;
 }

@@ -19,7 +19,7 @@ function timeline() {
             text: "K-Pop's Major Achievements over the Past Decade in the US"
         },
         subtitle: {
-            text: 'Info source: <a href="https://en.wikipedia.org/wiki/Timeline_of_K-pop_at_Billboard">www.wikipedia.org</a>'
+            text: 'Source: <a href="https://en.wikipedia.org/wiki/Timeline_of_K-pop_at_Billboard">Wikipedia</a>'
         },
         tooltip: {
             style: {
@@ -29,9 +29,10 @@ function timeline() {
         series: [{
             dataLabels: {
                 alternate: true,
-                allowOverlap: false,
+                allowOverlap: true,
                 format: '<span style="color:{point.color}">● </span><span style="font-weight: bold;" > ' +
-                    '{point.x:%d %b %Y}</span><br/>{point.label}'
+                    '{point.x:%d %b %Y}</span><br/>{point.label}',
+                width: 100
             },
             marker: {
                 symbol: 'circle'
@@ -79,7 +80,8 @@ function timeline() {
                 label: '1st #1 on Billboard Hot 100 chart',
                 description: "BTS's Dynamite hits #1 on Billboard Hot 100 Chart"
             }, ]
-        }]
+        }],
+        credits: false
     });
 }
 
@@ -92,7 +94,7 @@ function boxplot() {
             text: "Distribution of K-Pop Albums' Peak Positions"
         },
         subtitle: {
-			text: "According to Billboard's Top Current Album Chart 2011-2020",
+			text: "According to Billboard's Top Current Album Chart (2011-2020)",
 		},
         legend: {
             enabled: false
@@ -115,7 +117,7 @@ function boxplot() {
     
         yAxis: {
             title: {
-                text: 'Peak Position Distribution'
+                text: 'Peak Position Number'
             },
             reversed: true,
             min: 1,
@@ -139,7 +141,8 @@ function boxplot() {
                 [1, 3, 27, 76, 100]
             ],
             tooltip: {
-                headerFormat: '<em>Peak Position Year {point.key}</em><br/>'
+                headerFormat: '<em>Peak Positions in {point.key}</em><br/>',
+                pointFormat: '<span style="color:{point.color}">●</span> <b> {series.name}</b><br/>Minimum: {point.low}<br/>Lower quartile: {point.q1}<br/>Median: {point.median}<br/>Upper quartile: {point.q3}<br/>Maximum: {point.high}<br/>'
             }
         }, ],
         plotOptions: {
@@ -149,6 +152,7 @@ function boxplot() {
                 }
             },
         },
+        credits: false
     });
 }
 
@@ -160,7 +164,7 @@ function radarchart(){
         },
     
         title: {
-            text: 'Average Audio Features of K-Pop Tracks'
+            text: "Averages of Music Genres' Audio Features"
         },
         pane: {
             startAngle: 0,
@@ -172,7 +176,7 @@ function radarchart(){
             tickmarkPlacement: 'on',
         },
         yAxis: {
-            min: 0
+            min: 0,
         },
         series: [{
             name: 'K-pop',
@@ -201,6 +205,7 @@ function radarchart(){
             color: '#e3ad0b',
             fillOpacity: 0.1
         }],
+        credits: false
     });
 }
 
@@ -238,7 +243,8 @@ function lineConcerts() {
             name: 'Number of Concert Tours',
             color: '#c7a84c',
             data: [3, 2, 9, 8, 11, 12, 4, 15, 25, 17, 14]
-        }]
+        }],
+        credits: false
     })
 }
 
@@ -276,7 +282,8 @@ function lineAlbums() {
             name: 'Number of Albums',
             color: '#c7a84c',
             data: [0, 1, 3, 4, 6, 2, 1, 8, 18, 17, 33]
-        }]
+        }],
+        credits: false
     })
 }
 
