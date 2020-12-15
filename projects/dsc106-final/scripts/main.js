@@ -1,3 +1,11 @@
+Highcharts.setOptions({
+    chart: {
+        style: {
+            fontFamily: 'Noto Sans JP',
+        }
+    }
+});
+
 function timeline() {
     Highcharts.chart('timelineChart', {
         chart: {
@@ -44,40 +52,52 @@ function timeline() {
                 label: '1st Album on Billboard 200 Chart',
                 description: "BoA's <i>BoA</i> charts at #127"
             }, {
-                x: Date.UTC(2012, 7),
+                x: Date.UTC(2010, 8, 23),
                 color: '#5eebd8',
+                name: "First Artists on Billboard's Annual Showcase",
+                label: "First Artists on Billboard's Annual Showcase",
+                description: "6 K-pop artists featured on Billboard's annual showcase '21 under 21'"
+            }, {
+                x: Date.UTC(2012, 7),
+                color: '#6b57ba',
                 name: '1st YouTube video goes viral',
                 label: '1st YouTube video goes viral',
                 description: "Psy's <i>Gangnam Style</i> goes viral, attracting attention from general public in the US"
             }, {
                 x: Date.UTC(2012, 9, 17),
-                color: '#6b57ba',
+                color: '#f0a43a',
                 name: '1st U.S. K-pop Convention and Concert',
                 label: '1st U.S. K-pop Convention and Concert',
                 description: "<i>KCON</i> first held in Los Angeles in 2012"
             }, {
                 x: Date.UTC(2015, 2, 5),
-                color: '#f0a43a',
+                color: 'rgb(250, 40, 170)',
                 name: 'Largest Album Sales in US to Date',
                 label: 'Largest Album Sales in US to Date',
                 description: "EXO's <i>EXODUS</i> sells 6,000 copies according to Nielsen"
             }, {
                 x: Date.UTC(2017, 1, 15),
-                color: 'rgb(250, 40, 170)',
-                name: '1st Group Tops iTunes Top Songs chart',
-                label: '1st Group Tops iTunes Top Songs chart',
-                description: "BTS's <i>Spring Day</i> tops iTunes Top Songs Chart"
+                color: '#5eebd8',
+                name: 'First Group to Top iTunes Top Songs Chart',
+                label: 'First Group to Top iTunes Top Songs Chart',
+                description: "BTS's <i>Spring Day</i> tops Apple's iTunes Top Songs Chart"
+            }, {
+                x:Date.UTC(2018, 4, 27),
+                color: '#6b57ba',
+                name:"First #1 Album on Billboard 200",
+                label:"First #1 Album on Billboard 200",
+                description:"BTS's <i>Love Yourself: Tear</i> hits #1 on Billboard 200"
             }, {
                 x: Date.UTC(2019, 9, 5),
-                color: '#5eebd8',
-                name: '1st K-pop Artists Hold Initial Debut in U.S.',
-                label: '1st K-pop artists Hold Initial Debut in U.S.',
+                color: '#f0a43a',
+                name: 'First K-pop Artists to Hold Initial Debut in US',
+                label: 'First K-pop Artists to Hold Initial Debut in US',
                 description: "SuperM releases self-titled debut album in the US"
             }, {
                 x: Date.UTC(2020, 7, 31),
-                color: '#6b57ba',
-                name: '1st #1 on Billboard Hot 100 chart',
-                label: '1st #1 on Billboard Hot 100 chart',
+                color: 'rgb(250, 40, 170)',
+                name: 'First #1 Single on Billboard Hot 100 chart',
+                label: 'First #1 Single on Billboard Hot 100 chart',
                 description: "BTS's <i>Dynamite</i> hits #1 on Billboard Hot 100 Chart"
             }, ]
         }],
