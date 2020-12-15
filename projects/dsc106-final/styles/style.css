@@ -8,8 +8,8 @@ img {
     width: 70%;
     height: auto;
     display: block;
-    margin-left:auto;
-    margin-right:auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 h6 {
@@ -33,8 +33,8 @@ main section#title {
 
 main div.main-content-box{
     background-color: white;
-    margin-left: 215px;
-    margin-right: 215px;
+    margin-left: 13.5em;
+    margin-right: 13.5em;
     padding-top: 70px;
     padding-bottom: 40px;
     padding-left: 100px;
