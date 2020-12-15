@@ -182,9 +182,11 @@ function radarchart(){
             polar: true,
             type: 'area'
         },
-    
         title: {
             text: "Averages of Music Genres' Audio Features"
+        },
+        subtitle: {
+            text: 'Source: Spotify API'
         },
         pane: {
             startAngle: 0,
@@ -237,6 +239,9 @@ function lineConcerts() {
         title: {
             margin: 20,
             text: 'Number of K-Pop Concert Tours Over the Past Decade'
+        },
+        subtitle: {
+            text: 'Source: <a href="https://en.wikipedia.org/wiki/List_of_K-pop_concerts_held_outside_Asia">Wikipedia</a>'
         },
         plotOptions: {
             series: {
