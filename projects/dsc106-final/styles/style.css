@@ -23,8 +23,7 @@ main section#header {
     background-size: cover;
     background-color: black;
     opacity: 0.9;
-    margin-bottom: 5px;
-    padding: 140px;
+    padding: 9em;
 }
 
 main section#title {
@@ -36,8 +35,8 @@ main div.main-content-box{
     background-color: white;
     margin-left: 14em;
     margin-right: 14em;
-    padding-top: 70px;
-    padding-bottom: 40px;
+    padding-top: 6em;
+    padding-bottom: 3em;
     padding-left: 7em;
     padding-right: 7em;
 }

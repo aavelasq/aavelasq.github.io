@@ -114,10 +114,10 @@ function boxplot() {
             text: "Distribution of K-Pop Albums' Peak Positions"
         },
         subtitle: {
-			text: "According to Billboard's Top Current Album Chart (2011-2020)",
+			text: 'According to Billboard <a href="https://en.wikipedia.org/wiki/List_of_K-pop_albums_on_the_Billboard_charts#Top_Current_Album_Sales">Top Current Album</a> Chart (2011-2020)',
         },
         caption: {
-            text: "Note: No albums managed to chart in 2010, so 2010 is not included."
+            text: "Note: No K-Pop albums managed to chart in 2010, so 2010 is not included."
         },
         legend: {
             enabled: false
@@ -280,7 +280,7 @@ function lineAlbums() {
             type: 'line'
         },
         subtitle: {
-            text: "From Billboard's Top Current Albums Chart."
+            text: 'Source: Billboard <a href="https://en.wikipedia.org/wiki/List_of_K-pop_albums_on_the_Billboard_charts#Top_Current_Album_Sales">Top Current Album</a> Chart'
         },
         title: {
             margin: 20,
