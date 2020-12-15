@@ -115,7 +115,10 @@ function boxplot() {
         },
         subtitle: {
 			text: "According to Billboard's Top Current Album Chart (2011-2020)",
-		},
+        },
+        caption: {
+            text: "Note: No albums managed to chart in 2010, so 2010 is not included."
+        },
         legend: {
             enabled: false
         },
@@ -236,7 +239,7 @@ function lineConcerts() {
         },
         title: {
             margin: 20,
-            text: 'Number of K-Pop Concert Tours Over the Past Decade'
+            text: 'Number of K-Pop US Concert Tours Over the Past Decade'
         },
         subtitle: {
             text: 'Source: <a href="https://en.wikipedia.org/wiki/List_of_K-pop_concerts_held_outside_Asia">Wikipedia</a>'
