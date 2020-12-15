@@ -134,7 +134,6 @@ function boxplot() {
                 text: 'Year'
             }
         },
-    
         yAxis: {
             title: {
                 text: 'Peak Position Number'
@@ -143,7 +142,6 @@ function boxplot() {
             min: 1,
             max: 200
         },
-    
         series: [{
             name: 'Peak Position',
             color: '#f0a43a',
@@ -283,7 +281,7 @@ function lineAlbums() {
         },
         title: {
             margin: 20,
-            text: 'Number of K-Pop Albums Charting on Billboard by Year'
+            text: 'Number of K-Pop Albums to Chart on Billboard by Year'
         },
         plotOptions: {
             series: {
@@ -304,7 +302,7 @@ function lineAlbums() {
             },
         },
         series: [{
-            name: 'Number of Albums',
+            name: 'Number of Albums to Chart',
             color: '#5eebd8',
             data: [0, 1, 3, 4, 6, 2, 1, 8, 18, 17, 33]
         }],
