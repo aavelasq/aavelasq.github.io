@@ -111,7 +111,7 @@ function boxplot() {
             type: 'boxplot'
         },
         title: {
-            text: "Distribution of K-Pop Albums' Peak Positions"
+            text: "Distribution of K-Pop Albums' Peak Positions by Year"
         },
         subtitle: {
 			text: 'Source: Billboard <a href="https://en.wikipedia.org/wiki/List_of_K-pop_albums_on_the_Billboard_charts#Top_Current_Album_Sales">Top Current Album</a> Chart',
@@ -184,7 +184,7 @@ function artistChart() {
         },
         title: {
             margin: 20,
-            text: 'Number of K-Pop Artists to Chart on Billboard'
+            text: 'Number of K-Pop Artists to Chart by Year'
         },
         subtitle: {
 			text: 'Source: Billboard <a href="https://en.wikipedia.org/wiki/List_of_K-pop_albums_on_the_Billboard_charts#Top_Current_Album_Sales">Top Current Album</a> Chart',
@@ -278,7 +278,7 @@ function lineConcerts() {
         },
         title: {
             margin: 20,
-            text: 'Number of K-Pop US Concert Tours Over the Past Decade'
+            text: 'Number of K-Pop US Concert Tours over the Past Decade'
         },
         subtitle: {
             text: 'Source: <a href="https://en.wikipedia.org/wiki/List_of_K-pop_concerts_held_outside_Asia">Wikipedia</a>'
