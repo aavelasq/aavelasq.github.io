@@ -177,6 +177,48 @@ function boxplot() {
     });
 }
 
+function artistChart() {
+    Highcharts.chart("artistChart", {
+        chart: {
+            type: 'line'
+        },
+        title: {
+            margin: 20,
+            text: 'Number of K-Pop Artists to Chart on Billboard'
+        },
+        subtitle: {
+			text: 'According to Billboard <a href="https://en.wikipedia.org/wiki/List_of_K-pop_albums_on_the_Billboard_charts#Top_Current_Album_Sales">Top Current Album</a> Chart (2011-2020)',
+        },
+        plotOptions: {
+            series: {
+                pointStart: 2011
+            }
+        },
+        caption: {
+            text: "Note: No K-Pop artists managed to chart in 2010, so 2010 is not included."
+        },
+        legend: {
+            enabled: false
+        },
+        xAxis: {
+            title: {
+                text: 'Years'
+            },
+        },
+        yAxis: {
+            title: {
+                text: 'Number of Unique Artists'
+            },
+        },
+        series: [{
+            name: 'Number of Unique Artists by Year',
+            color: '#6b57ba',
+            data: [1, 3, 3, 6, 2, 1, 6, 13, 16, 24]
+        }],
+        credits: false
+    })
+}
+
 function radarchart(){
     Highcharts.chart('radarChart', {
         chart: {
@@ -266,7 +308,7 @@ function lineConcerts() {
             },
         },
         series: [{
-            name: 'Number of Concert Tours',
+            name: 'Number of Concert Tours by Year',
             color: 'rgb(250, 40, 170)',
             data: [3, 2, 9, 8, 11, 12, 4, 15, 25, 17, 14]
         }],
@@ -305,7 +347,7 @@ function lineAlbums() {
             },
         },
         series: [{
-            name: 'Number of Albums to Chart',
+            name: 'Number of Albums to Chart by Year',
             color: '#5eebd8',
             data: [0, 1, 3, 4, 6, 2, 1, 8, 18, 17, 33]
         }],
@@ -314,8 +356,9 @@ function lineAlbums() {
 }
 
 function init() {
-    timeline()
-    boxplot()
+    timeline();
+    boxplot();
+    artistChart();
     lineConcerts();
     radarchart();
     lineAlbums();
