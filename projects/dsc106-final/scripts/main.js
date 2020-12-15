@@ -114,10 +114,10 @@ function boxplot() {
             text: "Distribution of K-Pop Albums' Peak Positions"
         },
         subtitle: {
-			text: 'According to Billboard <a href="https://en.wikipedia.org/wiki/List_of_K-pop_albums_on_the_Billboard_charts#Top_Current_Album_Sales">Top Current Album</a> Chart (2011-2020)',
+			text: 'Source: Billboard <a href="https://en.wikipedia.org/wiki/List_of_K-pop_albums_on_the_Billboard_charts#Top_Current_Album_Sales">Top Current Album</a> Chart',
         },
         caption: {
-            text: "Note: No K-Pop albums managed to chart in 2010, so 2010 is not included."
+            text: "Note: No K-Pop albums managed to chart in 2010, so 2010 was not included."
         },
         legend: {
             enabled: false
@@ -187,15 +187,12 @@ function artistChart() {
             text: 'Number of K-Pop Artists to Chart on Billboard'
         },
         subtitle: {
-			text: 'According to Billboard <a href="https://en.wikipedia.org/wiki/List_of_K-pop_albums_on_the_Billboard_charts#Top_Current_Album_Sales">Top Current Album</a> Chart (2011-2020)',
+			text: 'Source: Billboard <a href="https://en.wikipedia.org/wiki/List_of_K-pop_albums_on_the_Billboard_charts#Top_Current_Album_Sales">Top Current Album</a> Chart',
         },
         plotOptions: {
             series: {
-                pointStart: 2011
+                pointStart: 2010
             }
-        },
-        caption: {
-            text: "Note: No K-Pop artists managed to chart in 2010, so 2010 is not included."
         },
         legend: {
             enabled: false
@@ -213,7 +210,7 @@ function artistChart() {
         series: [{
             name: 'Number of Unique Artists by Year',
             color: '#6b57ba',
-            data: [1, 3, 3, 6, 2, 1, 6, 13, 16, 24]
+            data: [0, 1, 3, 3, 6, 2, 1, 6, 13, 16, 24]
         }],
         credits: false
     })
