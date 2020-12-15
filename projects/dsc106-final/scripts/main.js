@@ -42,43 +42,43 @@ function timeline() {
                 color: 'rgb(250, 40, 170)',
                 name: '1st Album on Billboard 200 Chart',
                 label: '1st Album on Billboard 200 Chart',
-                description: "BoA's BoA charts at #127"
+                description: "BoA's <i>BoA</i> charts at #127"
             }, {
                 x: Date.UTC(2012, 7),
                 color: '#5eebd8',
                 name: '1st YouTube video goes viral',
                 label: '1st YouTube video goes viral',
-                description: "Psy's Gangnam Style goes viral, attracting attention from general public in the US"
+                description: "Psy's <i>Gangnam Style</i> goes viral, attracting attention from general public in the US"
             }, {
                 x: Date.UTC(2012, 9, 17),
                 color: '#6b57ba',
                 name: '1st U.S. K-pop Convention and Concert',
                 label: '1st U.S. K-pop Convention and Concert',
-                description: "KCON first held in Los Angeles in 2012"
+                description: "<i>KCON</i> first held in Los Angeles in 2012"
             }, {
                 x: Date.UTC(2015, 2, 5),
                 color: '#f0a43a',
                 name: 'Largest Album Sales in US to Date',
                 label: 'Largest Album Sales in US to Date',
-                description: "EXO's EXODUS sells 6,000 copies according to Nielsen"
+                description: "EXO's <i>EXODUS</i> sells 6,000 copies according to Nielsen"
             }, {
                 x: Date.UTC(2017, 1, 15),
                 color: 'rgb(250, 40, 170)',
                 name: '1st Group Tops iTunes Top Songs chart',
                 label: '1st Group Tops iTunes Top Songs chart',
-                description: "BTS's Spring Day tops iTunes Top Songs Chart"
+                description: "BTS's <i>Spring Day</i> tops iTunes Top Songs Chart"
             }, {
                 x: Date.UTC(2019, 9, 5),
                 color: '#5eebd8',
                 name: '1st K-pop Artists Hold Initial Debut in U.S.',
                 label: '1st K-pop artists Hold Initial Debut in U.S.',
-                description: "SuperM releases debut album in the US"
+                description: "SuperM releases self-titled debut album in the US"
             }, {
                 x: Date.UTC(2020, 7, 31),
                 color: '#6b57ba',
                 name: '1st #1 on Billboard Hot 100 chart',
                 label: '1st #1 on Billboard Hot 100 chart',
-                description: "BTS's Dynamite hits #1 on Billboard Hot 100 Chart"
+                description: "BTS's <i>Dynamite</i> hits #1 on Billboard Hot 100 Chart"
             }, ]
         }],
         credits: false

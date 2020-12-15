@@ -1,7 +1,7 @@
 body {
-    background-color: rgb(16, 16, 36);
+    background-color: rgb(16, 16, 32);
     font-family: 'Noto Sans JP', sans-serif;
-    color: rgb(18, 25, 43);
+    color: rgb(12, 13, 17);
 }
 
 img {
@@ -39,6 +39,14 @@ main div.main-content-box{
     padding-bottom: 40px;
     padding-left: 100px;
     padding-right: 100px;
+}
+
+main section#title h1 {
+    color: rgb(16, 32, 54);
+}
+
+main section#title h3 {
+    color: rgb(16, 32, 54);
 }
 
 main section.content {
