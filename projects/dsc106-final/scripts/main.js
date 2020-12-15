@@ -39,43 +39,43 @@ function timeline() {
             },
             data: [{
                 x: Date.UTC(2009, 3, 4),
-                color: '#c7a84c',
+                color: 'rgb(250, 40, 170)',
                 name: '1st Album on Billboard 200 Chart',
                 label: '1st Album on Billboard 200 Chart',
                 description: "BoA's BoA charts at #127"
             }, {
                 x: Date.UTC(2012, 7),
-                color: '#7a6a36',
+                color: '#5eebd8',
                 name: '1st YouTube video goes viral',
                 label: '1st YouTube video goes viral',
                 description: "Psy's Gangnam Style goes viral, attracting attention from general public in the US"
             }, {
                 x: Date.UTC(2012, 9, 17),
-                color: '#c7a84c',
+                color: '#6b57ba',
                 name: '1st U.S. K-pop Convention and Concert',
                 label: '1st U.S. K-pop Convention and Concert',
                 description: "KCON first held in Los Angeles in 2012"
             }, {
                 x: Date.UTC(2015, 2, 5),
-                color: '#7a6a36',
+                color: '#f0a43a',
                 name: 'Largest Album Sales in US to Date',
                 label: 'Largest Album Sales in US to Date',
                 description: "EXO's EXODUS sells 6,000 copies according to Nielsen"
             }, {
                 x: Date.UTC(2017, 1, 15),
-                color: '#c7a84c',
+                color: 'rgb(250, 40, 170)',
                 name: '1st Group Tops iTunes Top Songs chart',
                 label: '1st Group Tops iTunes Top Songs chart',
                 description: "BTS's Spring Day tops iTunes Top Songs Chart"
             }, {
                 x: Date.UTC(2019, 9, 5),
-                color: '#7a6a36',
+                color: '#5eebd8',
                 name: '1st K-pop Artists Hold Initial Debut in U.S.',
                 label: '1st K-pop artists Hold Initial Debut in U.S.',
                 description: "SuperM releases debut album in the US"
             }, {
                 x: Date.UTC(2020, 7, 31),
-                color: '#c7a84c',
+                color: '#6b57ba',
                 name: '1st #1 on Billboard Hot 100 chart',
                 label: '1st #1 on Billboard Hot 100 chart',
                 description: "BTS's Dynamite hits #1 on Billboard Hot 100 Chart"
@@ -126,7 +126,7 @@ function boxplot() {
     
         series: [{
             name: 'Peak Position',
-            color: '#c7a84c',
+            color: '#f0a43a',
             data: [
                 // min 25th median 75th max
                 [192, 192, 192, 192, 192],
@@ -182,27 +182,27 @@ function radarchart(){
             name: 'K-pop',
             data: [0.65, 0.73, 0.19, 0.55, 0.25],
             pointPlacement: 'on',
-            color: '#c7a84c',
+            color: 'rgb(250, 40, 170)',
             fillOpacity: 0.1
         },{
             name: 'Rock',
             data: [0.5, 0.74, 0.19, 0.52, 0.14],
             pointPlacement: 'on',
-            color: '#6b5e31',
+            color: '#5eebd8',
             fillOpacity: 0.1
         },
         {
             name: 'Hip-Hop',
             data: [0.75, 0.65, 0.18, 0.54, 0.14],
             pointPlacement: 'on',
-            color: '#a17c06',
+            color: '#f0a43a',
             fillOpacity: 0.1
         },
         {
             name: 'Pop',
             data: [0.68, 0.62, 0.16, 0.52, 0.25],
             pointPlacement: 'on',
-            color: '#e3ad0b',
+            color: '#6b57ba',
             fillOpacity: 0.1
         }],
         credits: false
@@ -241,7 +241,7 @@ function lineConcerts() {
         },
         series: [{
             name: 'Number of Concert Tours',
-            color: '#c7a84c',
+            color: 'rgb(250, 40, 170)',
             data: [3, 2, 9, 8, 11, 12, 4, 15, 25, 17, 14]
         }],
         credits: false
@@ -280,7 +280,7 @@ function lineAlbums() {
         },
         series: [{
             name: 'Number of Albums',
-            color: '#c7a84c',
+            color: '#5eebd8',
             data: [0, 1, 3, 4, 6, 2, 1, 8, 18, 17, 33]
         }],
         credits: false
