@@ -1,7 +1,7 @@
 Highcharts.setOptions({
     chart: {
         style: {
-            fontFamily: 'Noto Sans JP', 'sans-serif'
+            fontFamily: 'Noto Sans JP, sans-serif'
         }
     }
 });
