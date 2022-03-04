@@ -1,7 +1,7 @@
 :root {
-    --main-bg-color: #dae5fa;
-    --sub-bg-color: #c4d3f0;
-    --name-header-color: #273242;
+    --main-bg-color: #e7f0fc;
+    --sub-bg-color: #bfcff0;
+    --name-header-color: #2f3c50;
     --font-color: rgb(51, 51, 51);
   }
 
@@ -16,7 +16,7 @@ div#moblie-disclaimer {
     padding: 10px 0;
     text-align: center;
     color: white;
-    font-family: "Roboto", sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
 }
 
 div#header {
@@ -24,8 +24,7 @@ div#header {
     background-image: url("./imgs/header.png");
     background-size: contain;
     padding-top: 15vh;
-    padding-bottom: 5vh;
-    border-bottom: 10px solid #343f63;
+    padding-bottom: 8vh;
 }
 
 div#header #title-header {
@@ -39,17 +38,17 @@ div#header #title-header span {
 }
 
 div#header #subtitle-header {
-    font-weight: 200; 
-    font-size: 1.5vw;
+    font-weight: 300; 
+    font-size: 1.55vw;
     color: white;
-    font-family: "Roboto", sans-serif;
+    font-family: "Open Sans", sans-serif;
 }
 
 div#header #authors {
-    font-weight: 100; 
-    font-size: 1.2vw;
+    font-weight: 300; 
+    font-size: 1.3vw;
     color: white;
-    font-family: "Roboto", sans-serif;
+    font-family: "Open Sans", sans-serif;
 }
 
 div#header .headers {
@@ -102,41 +101,55 @@ body div#main {
 
 @media (min-width: 1200px) {
     .article-text {
-        margin: 0 18%;
+        margin: 0 19%;
     }
 }
 
 p.article-text {
-    font-family: "Roboto", sans-serif;
-    font-weight: 300;
-    color: rgb(0, 0, 0);
-    font-size: 1.1em;
-    line-height: 1.8;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 400;
+    color: rgb(56, 56, 56);
+    font-size: 1.15em;
+    line-height: 1.7;
 }
 
 .sub-headers {
     color: #173f77;
     text-align: left;
-    padding-top: 30px;
-    padding-bottom: 10px;
-    font-size: 2.5em;
-    font-family: 'Fjalla One', sans-serif;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-size: 2.8em;
+    font-family: 'Mukta', sans-serif;
+    font-weight: 700;
     text-transform: uppercase;
 }
 
 .topic-headers {
-    color: #38547a;
-    padding: 10px 0;
+    color: #4b76b1;
+    font-family: 'Mukta', sans-serif;
+    font-size: 2em;
+    font-weight: 600;
+    padding: 20px 0;
 }
 
 .viz-headers {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+
+.viz-subtitle {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color:#757575;
+    font-weight: 500;
+    padding-bottom: 10px;
 }
 
 h4.viz-headers {
-    color:rgb(18, 33, 66);
+    color:rgb(23, 41, 78);
     text-align: center;
-    padding: 12px 0;
+    padding-top: 12px;
+    font-size: 1.6em;
 }
 
 a {
@@ -152,7 +165,8 @@ a:hover {
 
 div#twitter-tweet-ex {
     text-align: center;
-    margin-top: 20px;
+    padding-top: 25px;
+    font-family: "Open Sans", sans-serif;
 }
 
 img#twitter-tweet-img {
@@ -196,6 +210,7 @@ div#intro-celeb-viz div.celeb-img-container {
 div#intro-celeb-viz div.celeb-img-container:hover {
     background-color: var(--sub-bg-color);
     box-shadow: 4px 4px 4px rgb(107, 107, 107);
+    border: 1px solid rgb(103, 119, 158);
 }
 
 div#intro-celeb-viz img {
@@ -219,8 +234,9 @@ div#intro-celeb-viz div.celeb-img-container .tooltiptext {
     color: var(--font-color);
     text-align: center;
     padding: 10px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     border-radius: 3%;
+    border: 1px solid rgb(103, 119, 158);
   
     /* tooltip position */
     position: absolute;
@@ -262,6 +278,7 @@ div#intro-celeb-viz div.celeb-img-container p {
     text-align: center;
     font-size: 0.85em;
     color: var(--font-color);
+    font-family: "Open Sans", sans-serif;
 }
 
 div#intro-data-viz {
@@ -278,6 +295,8 @@ div#intro-data-viz div#dataset-btn-legend {
 
 div#intro-data-viz #toggle-btn {
     background-color: var(--main-bg-color);
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
 }
 
 div#intro-data-viz #toggle-btn:hover {
@@ -313,7 +332,7 @@ div#intro-data-viz td.tweet-num {
 
 div#intro-data-viz td {
     color: var(--font-color);
-    font-family: "Roboto", sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-size: 0.75em;
 }
 
@@ -326,6 +345,7 @@ div#intro-data-viz td {
 
 /* sentiment example viz */
 div#sentiment-ex {
+    padding-top: 5px;
     text-align: center;
     margin: 10px 0;
 }
@@ -335,18 +355,21 @@ div#sentiment-ex div {
     color: var(--font-color);
     margin: 10px auto;
     padding-top: 10px;
-    width: 470px;
-    font-family: "Roboto", sans-serif;
+    width: 530px;
+    font-family: "Open Sans", sans-serif;
     border: 1px solid var(--sub-bg-color);
 }
 
-div#sentiment-ex div h5#pos-ex {
-    color:rgb(53, 129, 91);
+div#sentiment-ex div#pos-ex h5 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    color:rgb(46, 114, 80);
     font-size: 1.2em;
 }
-
-div#sentiment-ex div h5#neg-ex {
-    color:rgb(218, 56, 91);
+div#sentiment-ex div#neg-ex h5 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    color:rgb(223, 65, 99);
     font-size: 1.2em;
 }
 
@@ -360,17 +383,13 @@ div#type-viz .row {
     padding-bottom: 10px;
 }
 
-div#type-viz h5 {
-    letter-spacing: 1px;
-}
-
 div#type-viz div.indiv {
     background-color: var(--main-bg-color);
     position: relative;
     display: inline-block;
-    width: 120px;
+    width: 130px;
     height: auto;
-    padding: 5px 10px;
+    padding: 5px;
     margin: 0 10px;
     text-align: center;
     justify-content: center;
@@ -382,6 +401,7 @@ div#type-viz div.indiv {
 div#type-viz div.indiv:hover {
     background-color: var(--sub-bg-color);
     box-shadow: 4px 4px 4px rgb(107, 107, 107);
+    border: 1px solid rgb(103, 119, 158);
 }
 
 /* tooltip  */
@@ -395,15 +415,15 @@ div#type-viz div.indiv .tooltip {
     color: var(--font-color);
     text-align: center;
     padding: 5px;
-    font-family: 'Roboto', sans-serif;
-    border-radius: 5%;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 2%;
     border: 1px solid rgb(103, 119, 158);
   
     /* tooltip position */
     position: absolute;
     z-index: 1;
-    top: 100%;
-    left: -22%;
+    top: 105%;
+    left: -18%;
 
     /* transition */
     opacity: 0;
@@ -416,18 +436,28 @@ div#type-viz div.indiv:hover .tooltip {
 }
 
 div#type-viz div.indiv img {
-    width: 70px;
+    width: 75px;
     height: auto;
     border-radius: 50%;
     border: 2px solid white;
 }
 
+div#type-viz h5 {
+    color:rgb(34, 58, 94);
+    padding-bottom: 5px;
+}
+
 div#type-viz div.indiv h6 {
     color: var(--name-header-color);
+    padding-top: 5px;
 }
 
 div#fandom-viz {
     padding: 20px 0;
+}
+
+div#fandom-viz h4 {
+    padding-bottom: 10px;
 }
 
 div#fandom-viz .row {
@@ -440,14 +470,17 @@ div#fandom-viz .legend {
 }
 
 div#fandom-viz div#legend h5 {
-    padding-left: 33%;
+    padding-left: 35%;
     color: #343f63;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
 }
 
 div#fandom-viz div#legend button {
     width: auto;
     margin: 5px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
     background-color: var(--main-bg-color);
 }
 
@@ -462,7 +495,6 @@ div#fandom-viz div#legend button.active {
 div#fandom-viz h5 {
     text-align: center;
     padding-top: 10px;
-    letter-spacing: 1px;
 }
 
 div#fandom-viz h5#fandom-strong-header {
@@ -474,10 +506,10 @@ div#fandom-viz h5#fandom-weak-header {
 }
 
 div#fandom-viz div.indiv-box {
-    width: 180px;
-    height: 120px;
+    width: 200px;
+    height: 130px;
     position: relative;
-    margin: 2px;
+    margin: 5px;
     padding: 12px;
     display: inline-block;
     border-radius: 5%;
@@ -495,7 +527,7 @@ div#fandom-viz div.fandom-weak {
 } 
 
 div#fandom-viz div.indiv-box img {
-    width: 60px;
+    width: 75px;
     height: auto;
     float: right;
     border-radius: 50%;
@@ -511,13 +543,71 @@ div#fandom-viz div.indiv-box h5 {
 
 div#fandom-viz div.indiv-box p {
     color: var(--font-color);
-    font-size: 0.9em;
-    font-family: "Roboto", sans-serif;
+    font-size: 0.95em;
+    font-family: "Open Sans", sans-serif;
 }
 
 /* results section */
 
+div.chart-container h6 {
+    color: var(--name-header-color);
+}
+
 /* type viz */
+div#type-plot-viz1 {
+    display: flex;
+}
+
+div#type-plot-viz2 {
+    display: flex;
+}
+
+div#type-bar-charts {
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+div#type-bar-charts div.type-bar {
+    background-color: var(--main-bg-color);
+    padding: 15px 0;
+    padding-left: 20px;
+    margin-right: 20px;
+    border: 1px solid rgb(187, 196, 221);
+    text-align: center;
+}
+
+div#type-line-charts {
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 1000px) {
+    div#type-plot-viz2 {
+        display: block;
+        text-align: center;
+        margin: 1%;
+    }
+
+    div#type-line-charts {
+        display: block;
+        text-align: center;
+    }
+}
+
+div#type-line-charts .type-line {
+    background-color: var(--main-bg-color);
+    padding: 15px 0;
+    padding-left: 20px;
+    margin-right: 20px;
+    border: 1px solid rgb(187, 196, 221);
+    text-align: center;
+}
 
 /* background viz */
 
@@ -542,10 +632,20 @@ div#bg-plot-viz > * {
     flex: 1;
 }
 
-div#bg-charts {
+div#bg-charts div.bg-lines {
     background-color: var(--main-bg-color);
     width: auto;
-    padding-left: 2%;
+    padding-left: 20px;
+    border: 1px solid rgb(187, 196, 221);
+    text-align: center;
+}
+
+div#bg-charts div.bg-chart {
+    padding: 15px 0;
+}
+
+div#bg-charts div#bg-sex {
+    margin-top: 40px;
 }
 
 figure.sticky {
@@ -560,6 +660,7 @@ figure.sticky {
     margin-left: 50px;
     max-width: 40%;
     height: auto;
+    border: 1px solid var(--sub-bg-color)
 }
 
 @media (min-width: 1000px) {
@@ -571,9 +672,8 @@ figure.sticky {
 figure.sticky p {
     padding: 15px;
     text-align: left;
-    font-size: 1.1em;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
+    font-size: 1.15em;
+    font-family: "Source Sans Pro", sans-serif;
 }
 
 /* parasocial chart viz */
@@ -581,7 +681,7 @@ div#ps-plot-viz {
     display: flex;
 }
 
-div.ps-charts {
+div#ps-charts {
     margin: auto;
     /* padding: 0 5%; */
     padding-top: 20px;
@@ -597,13 +697,13 @@ div.ps-charts {
         margin: 1%;
     }
 
-    div.ps-charts {
+    div#ps-charts {
         display: block;
         text-align: center;
     }
 }
 
-div.ps-charts .ps-line {
+div#ps-charts .ps-line {
     background-color: var(--main-bg-color);
     padding: 15px 0;
     padding-left: 20px;
@@ -636,6 +736,7 @@ div#methodology h2 {
 
 div#methodology h5 {
     color: rgb(190, 205, 233);
+    font-family: "Source Sans Pro", sans-serif;
     padding: 10px 0;
 }
 
