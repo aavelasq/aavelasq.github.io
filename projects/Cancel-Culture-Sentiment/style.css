@@ -25,7 +25,7 @@ div#header {
     background-image: url("./imgs/header.png");
     background-size: contain;
     padding-top: 15vh;
-    padding-bottom: 8vh;
+    padding-bottom: 15vh;
 }
 
 div#header #title-header {
@@ -88,8 +88,32 @@ div#header .headers {
     }
 }
 
+nav#nav_bar {
+    background-color: rgb(10, 10, 10);
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+}
+
+nav#nav_bar a {
+    color: rgb(214, 214, 214);
+}
+
+nav#nav_bar a:hover {
+    color: rgb(177, 198, 241);
+    font-weight: 600;
+    transition: 0.5s;
+}
+
+nav#nav_bar li.nav-item {
+    padding-right: 40px;
+}
+
 body div#main {
     padding: 5vh 0;
+}
+
+div.div-section {
+    padding-top: 25px;
 }
 
 @media (max-width: 1000px) {
@@ -117,7 +141,7 @@ p.article-text {
 .sub-headers {
     color: #173f77;
     text-align: left;
-    padding-top: 50px;
+    padding-top: 40px;
     padding-bottom: 30px;
     font-size: 2.8em;
     font-family: 'Mukta', sans-serif;
@@ -126,7 +150,7 @@ p.article-text {
 }
 
 .topic-headers {
-    color: #4b76b1;
+    color: #43699e;
     font-family: 'Mukta', sans-serif;
     font-size: 2em;
     font-weight: 600;
@@ -360,6 +384,7 @@ div#intro-data-viz tr:hover {
 div#intro-data-viz td.artists {
     font-size: 1em;
     width: 15%;
+    font-weight: 500;
 }
 
 div#intro-data-viz td.tweet-num {
@@ -685,6 +710,10 @@ div#bg-table-viz div.bg-table tr:hover {
     background-color: var(--sub-bg-color);
 }
 
+div#bg-table-viz div.bg-table td.label {
+    font-weight: 500;
+}
+
 div#bg-plot-viz {
     color: var(--font-color);
     padding: 20px 0;
@@ -801,11 +830,12 @@ div#methodology a {
 }
 
 div#methodology a:hover {
-    color: white;
+    color: rgb(173, 225, 255);
 }
 
-div#methodology h2 {
+div#methodology h4 {
     color: rgb(190, 205, 233);
+    font-size: 2em;
 }
 
 div#methodology h5 {

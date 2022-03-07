@@ -37,8 +37,34 @@
                 <h5 id="authors" class="headers">By Nikitha Gopal, Abigail Velasquez, Peter Wu</h5>
             </div>
         </div>
+        <nav id="nav_bar" class="navbar sticky-top navbar-expand-lg navbar-dark">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto mx-auto">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#intro">Intro</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#data-section">The Data</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#methods">Methods</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#results">Results</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#conclusion">Conclusion</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
         <div id="main" class="container-lg">
-            <div id="intro">
+            <div id="intro" class="div-section">
                 <p class="article-text">
                     In today's social media age, we see trends happen every day. Every so often, 
                     a celebrity would trend on social media platforms over behavior considered offensive or socially unacceptable. 
@@ -76,7 +102,8 @@
                         after their controversy first breaks out. 
                     </h5>
                 </div>
-
+            </div>
+            <div id="data-section" class="div-section">
                 <h2 class="sub-headers article-text">The Data</h2>
                 <p class="article-text">
                     For our analysis, we focused on three different genres of music: K-pop, hip-hop, and pop. We then selected
@@ -378,7 +405,7 @@
                     </div>
                 </div>
             </div>
-            <div id="methods">
+            <div id="methods" class="div-section">
                 <h2 class="sub-headers article-text">Methods</h2>
                 <p class="article-text">
                     To measure sentiment for each artist, we utilized sentiment analysis, which is a 
@@ -581,7 +608,7 @@
                     </div>
                 </div>
             </div>
-            <div id="results">
+            <div id="results" class="div-section">
                 <h2 class="sub-headers article-text">Results</h2>
                 <h3 class="topic-headers article-text">Type of Issue For Cancellation</h3>
                 <p class="article-text">
@@ -652,13 +679,13 @@
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td># Days to Return to<br> Pre-Controversy Levels</td>
+                                        <td class="label"># Days to Return to<br> Pre-Controversy Levels</td>
                                         <td>26</td>
                                         <td>35</td>
                                         <td>18</td>
                                     </tr>
                                     <tr>
-                                        <td>Day 0 Median Level</td>
+                                        <td class="label">Day 0 Median Level</td>
                                         <td>0.15</td>
                                         <td>0.17</td>
                                         <td>0.22</td>
@@ -679,13 +706,13 @@
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td># Days to Return to<br> Pre-Controversy Levels</td>
+                                        <td class="label"># Days to Return to<br> Pre-Controversy Levels</td>
                                         <td>18</td>
                                         <td>30</td>
                                         <td>1</td>
                                     </tr>
                                     <tr>
-                                        <td>Day 0 Median Level</td>
+                                        <td class="label">Day 0 Median Level</td>
                                         <td>0.12</td>
                                         <td>0.14</td>
                                         <td>0.18</td>
@@ -707,12 +734,12 @@
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td># Days to Return to<br> Pre-Controversy Levels</td>
+                                        <td class="label"># Days to Return to<br> Pre-Controversy Levels</td>
                                         <td>71</td>
                                         <td>18</td>
                                     </tr>
                                     <tr>
-                                        <td>Day 0 Median Level</td>
+                                        <td class="label">Day 0 Median Level</td>
                                         <td>0.11</td>
                                         <td>0.19</td>
                                     </tr>
@@ -731,12 +758,12 @@
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td># Days to Return to<br> Pre-Controversy Levels</td>
+                                        <td class="label"># Days to Return to<br> Pre-Controversy Levels</td>
                                         <td>71</td>
                                         <td>13</td>
                                     </tr>
                                     <tr>
-                                        <td>Day 0 Median Level</td>
+                                        <td class="label">Day 0 Median Level</td>
                                         <td>0.13</td>
                                         <td>0.24</td>
                                     </tr>
@@ -800,7 +827,7 @@
                     which would explain the difference we see in overall negative sentiment between our strong and weak parasocial groups.
                 </p>
             </div>
-            <div id="conclusion">
+            <div id="conclusion" class="div-section">
                 <h2 class="sub-headers article-text">Conclusion</h2>
                 <p class="article-text">
                     Through our research, we’ve determined that <b>various factors concerning the 
@@ -827,7 +854,18 @@
             </div>
         </div>
         <div id="methodology">
-            <h2 class="sub-headers article-text">Methods</h2>
+            <h4 class="sub-headers article-text">Acknowledgements</h4>
+            <p class="article-text">
+                We would like to thank UCSD's Halicioğlu Data Science Institute and our domain mentor, Stuart Geiger, 
+                for all the support and guidance they've given us for this project. 
+                Also, thank you to our friends for testing our site and giving
+                us valuable feedback. If you would be interesting in learning
+                more about our project, you can view our 
+                <a href="https://github.com/aavelasq/dsc180-Q2sentiment">GitHub repository</a>
+                or 
+                read our research report. 
+            </p>
+            <h4 class="sub-headers article-text">Methodology</h4>
             <h5 class="article-text">Data</h5>
             <p class="article-text">
                 For each canceled artist, we used
