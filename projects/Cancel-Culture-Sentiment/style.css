@@ -1,9 +1,9 @@
 :root {
     --main-bg-color: #e7f0fc;
-    --sub-bg-color: #c5d7f3;
+    --sub-bg-color: #bfd1ec;
     --name-header-color: #2f3c50;
     --font-color: rgb(51, 51, 51);
-    --results-bg-color: rgba(236, 251, 255, 0.35);
+    --results-bg-color: rgba(238, 251, 255, 0.2);
   }
 
 /* main body */
@@ -99,7 +99,7 @@ nav#nav_bar a {
 }
 
 nav#nav_bar a:hover {
-    color: rgb(177, 198, 241);
+    color: rgb(186, 206, 247);
     font-weight: 600;
     transition: 0.5s;
 }
@@ -183,7 +183,7 @@ a {
 
 a:hover {
     color: rgb(67, 93, 117);
-    font-weight: 400;
+    font-weight: 600;
 }
 
 /* tweet example img */
