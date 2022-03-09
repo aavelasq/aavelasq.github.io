@@ -150,10 +150,10 @@ function drawTypeBarBef() {
                 .call(g => g.selectAll(".tick line")
                         .attr("stroke", axisColor));
 
-            // draw lines
+            // draw bars
             svg.selectAll("myRect")
                 .data(data)
-                    .join("rect")
+                .join("rect")
                     .attr("x", x(0) )
                     .attr("y", d => y(d.word))
                     .attr("width", d => x(d.value))
@@ -215,7 +215,7 @@ function drawTypeBarAft() {
                 .attr("font-weight", 500)
                 .style("font-size", "0.9em");
 
-            // draw lines
+            // draw bars
             svg.selectAll("myRect")
                 .data(data)
                     .join("rect")

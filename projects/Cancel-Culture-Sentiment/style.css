@@ -43,6 +43,7 @@ div#header #subtitle-header {
     font-size: 1.4vw;
     color: white;
     font-family: "Open Sans", sans-serif;
+    padding-bottom: 15px;
 }
 
 div#header #authors {
@@ -99,9 +100,10 @@ nav#nav_bar a {
 }
 
 nav#nav_bar a:hover {
-    color: rgb(186, 206, 247);
+    color: rgb(197, 216, 255);
     font-weight: 600;
-    transition: 0.5s;
+    transition: 0.2s;
+    border-bottom: 2px solid rgb(197, 216, 255);
 }
 
 nav#nav_bar li.nav-item {
