@@ -1,95 +1,55 @@
 body {
-    margin: 80px auto;
-    width: 60%;
     font-family: 'Roboto', sans-serif;
-    font-weight: 300;
+    background-color: #fdfdfd;
 }
 
 /* container */
-div.container {
-    display: grid;
-    grid-template-columns: 250px 500px;
-    grid-template-rows: auto auto;
-    grid-template-areas: 
-    "image title"
-    "image main";
-    background-color: #f5f5f5;
-    height: 300px;
-    margin-top: 40px;
-    margin-bottom: 80px;
-    padding-top: 20px;
-    padding-left: 50px;
-    padding-right: 50px;
+div#main {
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 10%;
 }
 
 div img#icon {
-    width: 180px;
+    width: 220px;
     justify-self: center;
-    grid-area: image;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    opacity: 0.8;
-    transition: opacity 0.5s;
+    border-radius: 50%;
 }
 
-div img#icon:hover {
-    opacity: 1.0;
-}
-
-div h1#name {
-    justify-self: left;
+div #name {
+    font-family: "Montserrat", sans-serif;
     font-size: 37px;
-    padding-top: 40px;
-    padding-left: 20px;
     color: #654e66;
     font-weight: 500;
-    grid-area: title;
+    padding-bottom: 15px;
 }
 
-div p#desc {
-    justify-self: left;
-    grid-area: main;
-    padding-left: 20px;
-    padding-bottom: 120px;
-    font-size: 15px;
-    line-height: 1.4em;
+div div#content-box {
+    padding-left: 50px;
+    font-size: 1.3em;
+    line-height: 1.6em;
     color: #696969;
+}
+
+div div#content-box a {
+    color:#6e3a70;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+div div#content-box a:hover {
+    font-weight: 700;
+    color:#814985;
 }
 
 /* navigation bar */
 nav {
-    overflow: hidden;
-    margin-left: 80px auto;
-    margin-right: 80px auto;
-    margin-bottom: 20px;
-    background-color: #967597;
+    background-color: #6d5467;
+    padding-left: 30px;
 }
 
 nav ul {
     font-family: 'Roboto', sans-serif;
-    margin: 0px;
-    padding: 8px;
-    list-style: none;
     font-weight: 300;
-}
-
-nav ul li {
-    display: inline;
-    align-items: center;
-    border-right: 1px solid #ffffff;
-    padding-left: 8px;
-    padding-right: 11px;
-}
-
-nav ul li a {
-    font-size: 14px;
-    font-weight: 400;
-    text-decoration: none;
-    color: #ffffff;
-    transition: opacity 0.5s;
-}
-
-nav ul li a:hover {
-    opacity: 0.5;
-    text-decoration: underline;
 }

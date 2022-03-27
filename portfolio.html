@@ -2,93 +2,100 @@
 <html>
     <head>
         <title>Abigail Velasquez - Portfolio</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="/css/portfolio.css">
     </head>
     <body>
-        <nav>
-            <ul>
-                <li><a href="index.html">HOME</a></li>
-                <li><a href="portfolio.html">PORTFOLIO</a></li>
-                <li><a href="https://github.com/aavelasq">GITHUB</a></li>
-                <li><a href="https://www.linkedin.com/in/abigail-velasquez-199a411b6/">LINKEDIN</a></li>
-            </ul>
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">Abigail Velasquez</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://github.com/aavelasq">GitHub</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.linkedin.com/in/abigail-velasquez-199a411b6/">LinkedIn</a>
+                    </li>
+                </ul>
+              </div>
+            </div>
         </nav>
 
-        <div class="main">
+        <div id="main" class="main" class="container-lg">
             <h2>Projects</h2>
             <hr>
-            <ul>
-                <li class="project"><a href="https://github.com/aavelasq/spotify-project/blob/master/SpotifyKpop.ipynb">Spotify K-Pop Analysis</a></li>
-                <p>A statistical analysis on K-Pop playlist data gathered utilizing the Spotify API,
-                    based off a project for DSC 80.
-                </p>
-                <li class="project"><a href="https://aavelasq.github.io/projects/dsc106-final/index.html">The Takeover of the Hallyu Wave</a></li>
-                <p>A data visualization group project for DSC 106 focusing on how K-Pop quickly grew in popularity within the U.S
-                    over the past decade.
-                </p>
-            </ul>
-            <h2>Coursework</h2>
-            <hr>
-            <p>Below course descriptions found from <a href="https://catalog.ucsd.edu/courses/DSC.html">UCSD Data Science course catalog</a>.</p>
-            <ul>
-                <li>DSC 10 - Principles of Data Science</li>
-                <p>An introductory course that develops computational thinking and tools 
-                    necessary to answer questions that arise from large-scale datasets. 
-                Emphasizes an end-to-end approach to data science, introducing programming 
-                techniques in Python that cover data processing, modeling, and analysis.
-                </p>
-                <li>DSC 20 - Programming and Basic Data Structures for Data Science</li>
-                <p>Provides an understanding of the structures that underlie the programs, 
-                    algorithms, and languages used in data science by expanding the repertoire 
-                    of computational concepts introduced in DSC 10 and exposing students to techniques 
-                    of abstraction. Covers topics including recursion, higher-order functions, 
-                    function composition, object-oriented programming, interpreters, classes, and 
-                    simple data structures such as arrays, lists, and linked lists.
-                </p>
-                <li>DSC 30 - Data Structure and Algorithms for Data Science</li>
-                <p>Builds on topics covered in DSC 20 and provides practical experience in composing 
-                    larger computational systems through several significant programming projects using Java. 
-                    Students will study advanced programming techniques including encapsulation, abstract data types, 
-                    interfaces, algorithms and complexity, and data structures such as stacks, queues, priority queues, 
-                    heaps, linked lists, binary trees, binary search trees, and hash tables.
-                </p>
-                <li>DSC 80 - Practice and Application of Data Science</li>
-                <p>The marriage of data, computation, and inferential thinking, or “data science,” is redefining how 
-                    people and organizations solve challenging problems and understand the world. Students master the 
-                    data science life-cycle and learn many of the fundamental principles and techniques of data 
-                    science spanning algorithms, statistics, machine learning, visualization, and data systems.
-                </p>
-                <li>DSC 40A - Theoretical Foundations of Data Science I</li>
-                <p>Students will become familiar with mathematical language for expressing data analysis problems and 
-                    solution strategies, and will receive training in probabilistic reasoning, mathematical modeling of 
-                    data, and algorithmic problem solving. Introduces fundamental topics in machine learning, statistics, 
-                    and linear algebra with applications to data analysis.
-                </p>
-                <li>DSC 40B - Theoretical Foundations of Data Science II</li>
-                <p>Introduces the theoretical foundations of data science and covers the following topics: mathematical 
-                    language for expressing data analysis problems and solution strategies, probabilistic reasoning, 
-                    mathematical modeling of data, and algorithmic problem solving. Covers fundamental topics in combinatorics, 
-                    graph theory, probability, and continuous and discrete algorithms with applications to data analysis.
-                </p>
-                <li>DSC 100 - Introduction to Data Management</li>
-                <p>An introduction to storage and management of large-scale data using classical relational (SQL) systems, with 
-                    an eye toward applications in data science. The course covers topics including the SQL data model and query language, 
-                    relational data modeling and schema design, elements of cost-based query optimizations, 
-                    relational data base architecture, and database-backed applications.
-                </p>
-                <li>DSC 106 - Introduction to Data Visualization</li>
-                <p>Introduces the principles, techniques, and algorithms for creating effective visualizations. The course draws on 
-                    the knowledge from several disciplines including computer graphics, human-computer interaction, cognitive psychology, 
-                    design, and statistical graphics and synthesizes relevant ideas. Students will design visualization systems using D3 
-                    or other web-based software and evaluate their effectiveness.
-                </p>
-                <li>DSC 140A - Probabilistic Modeling and Machine Learning</li>
-                <p>Covers learning and using probabilistic models for knowledge representation and decision-making. 
-                    Topics covered include graphical models, temporal models, and online learning, as well as applications 
-                    to natural language processing, adversarial learning, computational biology, and robotics.
-                </p>
-            </ul>
+            <div id="project-container" class="container-lg">
+                <div class="row">
+                    <div class="col-lg">
+                        <div class="card">
+                            <img src="./imgs/cancelculture.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">The Effect of Twitter Cancel Culture on the Music Industry</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">Group Project / Jan - Mar 2022</h6>
+                                <p class="card-text">Senior capstone project analyzing how cancel culture on Twitter affects public
+                                    sentiment, specifically toxic sentiment, towards
+                                    canceled musicians from the genres of K-Pop, Hip-Hop, and Pop over time.</p>
+                                <a href="https://aavelasq.github.io/projects/Cancel-Culture-Sentiment/" class="btn">Website</a>
+                                <a href="https://github.com/aavelasq/dsc180-Q2sentiment" class="btn">GitHub Repo</a>
+                                <!-- <a href="#" class="btn">Report</a> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg">
+                        <div class="card">
+                            <img src="./imgs/covid.png" class="card-img-top">
+                            <div class="card-body">
+                              <h5 class="card-title">Analysis of COVID-19 Vaccination Rates Across Age Groups in California</h5>
+                              <h6 class="card-subtitle mb-2 text-muted">Group Project / Feb - Mar 2022</h6>
+                              <p class="card-text">Observing whether younger age groups (ages 0-49) in California
+                                  get vaccinated at a higher rate compared to older age groups (ages 50+). 
+                              </p>
+                              <a href="#" class="btn">Report</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="col-lg">
+                            <div class="card">
+                                <!-- <img src="..." class="card-img-top" alt="..."> -->
+                                <div class="card-body">
+                                  <h5 class="card-title">Predicting Clothing Length Based on Product and Review Information</h5>
+                                  <h6 class="card-subtitle mb-2 text-muted">Individual Project / Dec 2021</h6>
+                                  <p class="card-text">Predicting the desired length of clothing product for a consumer based on product and review information 
+                                      from online retail company ModCloth using Ridge regression.
+                                  </p>
+                                  <a href="#" class="btn">Report</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg">
+                        <div class="card">
+                            <img src="./imgs/hallyuwave.png" class="card-img-top">
+                            <div class="card-body">
+                              <h5 class="card-title">The Takeover of the Hallyu Wave</h5>
+                              <h6 class="card-subtitle mb-2 text-muted">Group Project / Dec 2020</h6>
+                              <p class="card-text">A data visualization on K-Pop's rapid growth in popularity within the U.S
+                                over the past decade.</p>
+                              <a href="https://aavelasq.github.io/projects/dsc106-final/index.html" class="btn">Website</a>
+                              <a href="" class="btn">GitHub Repo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
         </div>
     </body>
 </html>
