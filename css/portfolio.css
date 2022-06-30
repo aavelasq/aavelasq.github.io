@@ -54,3 +54,20 @@ nav ul {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
 }
+
+/* footer */
+div#footer {
+    margin: auto;
+    width: 100%;
+}
+
+div#footer footer {
+    /* position: absolute; */
+    bottom: 0;
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+footer small {
+    color: #9a869b;
+}

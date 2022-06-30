@@ -9,6 +9,7 @@ div#main {
     margin-left: auto;
     margin-right: auto;
     padding: 0 10%;
+    padding-bottom: 5%;
 }
 
 div img#icon {
@@ -40,7 +41,7 @@ div div#content-box a {
 
 div div#content-box a:hover {
     font-weight: 700;
-    color:#814985;
+    color: #814985;
 }
 
 /* navigation bar */
@@ -52,4 +53,21 @@ nav {
 nav ul {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
+}
+
+/* footer */
+div#footer {
+    margin: auto;
+    width: 100%;
+}
+
+div#footer footer {
+    /* position: absolute; */
+    bottom: 0;
+    text-align: center;
+    padding-bottom: 1%;
+}
+
+footer small {
+    color: #9a869b;
 }
